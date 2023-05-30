@@ -12,17 +12,17 @@ header{
 
 .iframe {
     text-align: center;
-    margin-top: 14.3%;
+    margin-top: 2%;
     margin-right: 3px;
-    padding-left: 18%;
+    padding-left: 5%;
 }
 
 .iframe2 {
     outline: 3px solid black;
     outline-offset: -3px;
     border-right: 2.5px solid black;
-    width: 63%; 
-    height: 53.3%;
+    width: 90%;  
+    height: 90%; 
     display: block;
     position: absolute;
 }
