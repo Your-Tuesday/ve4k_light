@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.14/18105
-// Filename: skin_nvsu_light_fin.ggsk
-// Generated 2023-06-01T03:35:39
+// Filename: skin_nvsu_light.ggsk
+// Generated 2023-06-01T03:53:32
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -8397,12 +8397,12 @@ function pano2vrSkin(player,base) {
 		el=me._maphub=document.createElement('div');
 		els=me._maphub__img=document.createElement('img');
 		els.className='ggskin ggskin_maphub';
-		hs='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcUAAAG5CAYAAAD/IS8+AAAGlklEQVR4nO3aMWpbQRRA0XGQ9NEW3LpMZ0gZcB+TNWQrXk+69AFDekOKlF6H+LLAaa6F5AVIITqne0zzusswc3V9//A6AIDx4dwLAMC/YnE4bOaXMW9359oFAE5qWi3Gelru530UN/PL+Pr547i7vRFGAP5702oxHp+ex49ff/Zh3Edx3u7G3e3N+Pbl09kWBIBT+/7z9z6KR2+KbogAXJL33fPRBgAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQ'+
+		hs='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcUAAAHZCAYAAAD31SBkAAAHAklEQVR4nO3aMWpbQRRA0XGQ9NEW3LpMZ0gZcB+TNWQrXk+69AFDekOKlF6H+LLAaa6F5AVIITqne0zzusswc3V9//A6AIDx4dwLAMC/YnE4bOaXMW9359oFAE5qWi3Gelru530UN/PL+Pr547i7vRFGAP5702oxHp+ex49ff/Zh3Edx3u7G3e3N+Pbl09kWBIBT+/7z9z6KR2+KbogAXJL33fPRBgAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQ'+
 			'AiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQB'+
 			'IKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQ'+
 			'AiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQB'+
-			'IKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIADmK4rRanGsPADi5991bHB48Pj2PMcaYt7vTbgUAJ/bWvcMwXl'+
-			'3fP7y+DZv5RRABuBjTajHW03I/H90b19Py6BAALomPNgCQv6s8NBvZmPtEAAAAAElFTkSuQmCC';
+			'IKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQ'+
+			'AiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIABFFAIgoAkBEEQAiigAQUQSAiCIARBQBIKIIADmK4rRanGsPADi5991bHB48Pj2PMcaYt7vTbgUAJ/bWvcMwXl3fP7y+DZv5RRABuBjTajHW03I/H90b19Py6BAALomPNgCQv1GONFuC1RHoAAAAAElFTkSuQmCC';
 		els.setAttribute('src',hs);
 		els.ggNormalSrc=hs;
 		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
@@ -8417,7 +8417,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_image ";
 		el.ggType='image';
 		hs ='';
-		hs+='height : 441px;';
+		hs+='height : 473px;';
 		hs+='left : 0px;';
 		hs+='position : absolute;';
 		hs+='top : 2px;';
@@ -8440,863 +8440,6 @@ function pano2vrSkin(player,base) {
 		}
 		me._maphub.ggUpdatePosition=function (useTransition) {
 		}
-		el=me._text_enj0=document.createElement('div');
-		els=me._text_enj0__text=document.createElement('div');
-		el.className='ggskin ggskin_textdiv';
-		el.ggTextDiv=els;
-		el.ggId="text_enj";
-		el.ggDx=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_text ";
-		el.ggType='text';
-		hs ='';
-		hs+='bottom : 13px;';
-		hs+='height : 35px;';
-		hs+='left : -10000px;';
-		hs+='opacity : 0.95;';
-		hs+='position : absolute;';
-		hs+='visibility : inherit;';
-		hs+='width : 425px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		hs ='position:absolute;';
-		hs += 'box-sizing: border-box;';
-		hs+='cursor: default;';
-		hs+='left: 0px;';
-		hs+='bottom:  0px;';
-		hs+='width: 427px;';
-		hs+='height: auto;';
-		hs+='background: #1a4c81;';
-		hs+='background: rgba(26,76,129,0.784314);';
-		hs+='border: 1px solid #ffffff;';
-		hs+='color: rgba(255,255,255,1);';
-		hs+='text-align: center;';
-		hs+='white-space: pre-wrap;';
-		hs+='padding: 0px 2px 0px 2px;';
-		hs+='overflow: hidden;';
-		els.setAttribute('style',hs);
-		els.innerHTML="<b><p class=\"info_caption\">\u042d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430<\/p><\/b>";
-		el.appendChild(els);
-		me._text_enj0.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._text_enj0.onclick=function (e) {
-			me._maphub.style[domTransition]='none';
-			me._maphub.style.visibility='hidden';
-			me._maphub.ggVisible=false;
-			me._mapenj.style[domTransition]='none';
-			me._mapenj.style.visibility=(Number(me._mapenj.style.opacity)>0||!me._mapenj.style.opacity)?'inherit':'hidden';
-			me._mapenj.ggVisible=true;
-		}
-		me._text_enj0.onmouseover=function (e) {
-			me._text_enj0.style[domTransition]='none';
-			me._text_enj0.ggParameter.sx=1.03;me._text_enj0.ggParameter.sy=1;
-			me._text_enj0.style[domTransform]=parameterToTransform(me._text_enj0.ggParameter);
-		}
-		me._text_enj0.onmouseout=function (e) {
-			if (e && e.toElement) {
-				var current = e.toElement;
-				while (current = current.parentNode) {
-				if (current == me._text_enj0__text)
-					return;
-				}
-			}
-			me._text_enj0.style[domTransition]='none';
-			me._text_enj0.ggParameter.sx=1;me._text_enj0.ggParameter.sy=1;
-			me._text_enj0.style[domTransform]=parameterToTransform(me._text_enj0.ggParameter);
-		}
-		me._text_enj0.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth + 2;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-			}
-		}
-		me._maphub.appendChild(me._text_enj0);
-		el=me._text_eco0=document.createElement('div');
-		els=me._text_eco0__text=document.createElement('div');
-		el.className='ggskin ggskin_textdiv';
-		el.ggTextDiv=els;
-		el.ggId="text_eco";
-		el.ggDx=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_text ";
-		el.ggType='text';
-		hs ='';
-		hs+='bottom : 59px;';
-		hs+='height : 35px;';
-		hs+='left : -10000px;';
-		hs+='opacity : 0.95;';
-		hs+='position : absolute;';
-		hs+='visibility : inherit;';
-		hs+='width : 425px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		hs ='position:absolute;';
-		hs += 'box-sizing: border-box;';
-		hs+='cursor: default;';
-		hs+='left: 0px;';
-		hs+='bottom:  0px;';
-		hs+='width: 427px;';
-		hs+='height: auto;';
-		hs+='background: #1a4c81;';
-		hs+='background: rgba(26,76,129,0.784314);';
-		hs+='border: 1px solid #ffffff;';
-		hs+='color: rgba(255,255,255,1);';
-		hs+='text-align: center;';
-		hs+='white-space: pre-wrap;';
-		hs+='padding: 0px 2px 0px 2px;';
-		hs+='overflow: hidden;';
-		els.setAttribute('style',hs);
-		els.innerHTML="<b><p class=\"info_caption\">\u042d\u043a\u043e\u043b\u043e\u0433\u0438\u044f<\/p><\/b>";
-		el.appendChild(els);
-		me._text_eco0.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._text_eco0.onclick=function (e) {
-			me._maphub.style[domTransition]='none';
-			me._maphub.style.visibility='hidden';
-			me._maphub.ggVisible=false;
-			me._mapeco.style[domTransition]='none';
-			me._mapeco.style.visibility=(Number(me._mapeco.style.opacity)>0||!me._mapeco.style.opacity)?'inherit':'hidden';
-			me._mapeco.ggVisible=true;
-		}
-		me._text_eco0.onmouseover=function (e) {
-			me._text_eco0.style[domTransition]='none';
-			me._text_eco0.ggParameter.sx=1.03;me._text_eco0.ggParameter.sy=1;
-			me._text_eco0.style[domTransform]=parameterToTransform(me._text_eco0.ggParameter);
-		}
-		me._text_eco0.onmouseout=function (e) {
-			if (e && e.toElement) {
-				var current = e.toElement;
-				while (current = current.parentNode) {
-				if (current == me._text_eco0__text)
-					return;
-				}
-			}
-			me._text_eco0.style[domTransition]='none';
-			me._text_eco0.ggParameter.sx=1;me._text_eco0.ggParameter.sy=1;
-			me._text_eco0.style[domTransform]=parameterToTransform(me._text_eco0.ggParameter);
-		}
-		me._text_eco0.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth + 2;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-			}
-		}
-		me._maphub.appendChild(me._text_eco0);
-		el=me._text_tech0=document.createElement('div');
-		els=me._text_tech0__text=document.createElement('div');
-		el.className='ggskin ggskin_textdiv';
-		el.ggTextDiv=els;
-		el.ggId="text_tech";
-		el.ggDx=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_text ";
-		el.ggType='text';
-		hs ='';
-		hs+='bottom : 105px;';
-		hs+='height : 35px;';
-		hs+='left : -10000px;';
-		hs+='opacity : 0.95;';
-		hs+='position : absolute;';
-		hs+='visibility : inherit;';
-		hs+='width : 425px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		hs ='position:absolute;';
-		hs += 'box-sizing: border-box;';
-		hs+='cursor: default;';
-		hs+='left: 0px;';
-		hs+='bottom:  0px;';
-		hs+='width: 427px;';
-		hs+='height: auto;';
-		hs+='background: #1a4c81;';
-		hs+='background: rgba(26,76,129,0.784314);';
-		hs+='border: 1px solid #ffffff;';
-		hs+='color: rgba(255,255,255,1);';
-		hs+='text-align: center;';
-		hs+='white-space: pre-wrap;';
-		hs+='padding: 0px 2px 0px 2px;';
-		hs+='overflow: hidden;';
-		els.setAttribute('style',hs);
-		els.innerHTML="<b><p class=\"info_caption\">\u0422\u0435\u0445\u043d\u043e\u0441\u0444\u0435\u0440\u043d\u0430\u044f \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c<\/p><\/b>";
-		el.appendChild(els);
-		me._text_tech0.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._text_tech0.onclick=function (e) {
-			me._maphub.style[domTransition]='none';
-			me._maphub.style.visibility='hidden';
-			me._maphub.ggVisible=false;
-			me._maptech.style[domTransition]='none';
-			me._maptech.style.visibility=(Number(me._maptech.style.opacity)>0||!me._maptech.style.opacity)?'inherit':'hidden';
-			me._maptech.ggVisible=true;
-		}
-		me._text_tech0.onmouseover=function (e) {
-			me._text_tech0.style[domTransition]='none';
-			me._text_tech0.ggParameter.sx=1.03;me._text_tech0.ggParameter.sy=1;
-			me._text_tech0.style[domTransform]=parameterToTransform(me._text_tech0.ggParameter);
-		}
-		me._text_tech0.onmouseout=function (e) {
-			if (e && e.toElement) {
-				var current = e.toElement;
-				while (current = current.parentNode) {
-				if (current == me._text_tech0__text)
-					return;
-				}
-			}
-			me._text_tech0.style[domTransition]='none';
-			me._text_tech0.ggParameter.sx=1;me._text_tech0.ggParameter.sy=1;
-			me._text_tech0.style[domTransform]=parameterToTransform(me._text_tech0.ggParameter);
-		}
-		me._text_tech0.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth + 2;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-			}
-		}
-		me._maphub.appendChild(me._text_tech0);
-		el=me._text_eng0=document.createElement('div');
-		els=me._text_eng0__text=document.createElement('div');
-		el.className='ggskin ggskin_textdiv';
-		el.ggTextDiv=els;
-		el.ggId="text_eng";
-		el.ggDx=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_text ";
-		el.ggType='text';
-		hs ='';
-		hs+='bottom : 151px;';
-		hs+='height : 35px;';
-		hs+='left : -10000px;';
-		hs+='opacity : 0.95;';
-		hs+='position : absolute;';
-		hs+='visibility : inherit;';
-		hs+='width : 425px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		hs ='position:absolute;';
-		hs += 'box-sizing: border-box;';
-		hs+='cursor: default;';
-		hs+='left: 0px;';
-		hs+='bottom:  0px;';
-		hs+='width: 427px;';
-		hs+='height: auto;';
-		hs+='background: #1a4c81;';
-		hs+='background: rgba(26,76,129,0.784314);';
-		hs+='border: 1px solid #ffffff;';
-		hs+='color: rgba(255,255,255,1);';
-		hs+='text-align: center;';
-		hs+='white-space: pre-wrap;';
-		hs+='padding: 0px 2px 0px 2px;';
-		hs+='overflow: hidden;';
-		els.setAttribute('style',hs);
-		els.innerHTML="<b><p class=\"info_caption\">\u041e\u0431\u0449\u0435\u0438\u043d\u0436\u0435\u043d\u0435\u0440\u043d\u0430\u044f \u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043a\u0430<\/p><\/b>";
-		el.appendChild(els);
-		me._text_eng0.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._text_eng0.onclick=function (e) {
-			me._maphub.style[domTransition]='none';
-			me._maphub.style.visibility='hidden';
-			me._maphub.ggVisible=false;
-			me._mapeng.style[domTransition]='none';
-			me._mapeng.style.visibility=(Number(me._mapeng.style.opacity)>0||!me._mapeng.style.opacity)?'inherit':'hidden';
-			me._mapeng.ggVisible=true;
-		}
-		me._text_eng0.onmouseover=function (e) {
-			me._text_eng0.style[domTransition]='none';
-			me._text_eng0.ggParameter.sx=1.03;me._text_eng0.ggParameter.sy=1;
-			me._text_eng0.style[domTransform]=parameterToTransform(me._text_eng0.ggParameter);
-		}
-		me._text_eng0.onmouseout=function (e) {
-			if (e && e.toElement) {
-				var current = e.toElement;
-				while (current = current.parentNode) {
-				if (current == me._text_eng0__text)
-					return;
-				}
-			}
-			me._text_eng0.style[domTransition]='none';
-			me._text_eng0.ggParameter.sx=1;me._text_eng0.ggParameter.sy=1;
-			me._text_eng0.style[domTransform]=parameterToTransform(me._text_eng0.ggParameter);
-		}
-		me._text_eng0.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth + 2;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-			}
-		}
-		me._maphub.appendChild(me._text_eng0);
-		el=me._text_neft0=document.createElement('div');
-		els=me._text_neft0__text=document.createElement('div');
-		el.className='ggskin ggskin_textdiv';
-		el.ggTextDiv=els;
-		el.ggId="text_neft";
-		el.ggDx=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_text ";
-		el.ggType='text';
-		hs ='';
-		hs+='bottom : 197px;';
-		hs+='height : 35px;';
-		hs+='left : -10000px;';
-		hs+='opacity : 0.95;';
-		hs+='position : absolute;';
-		hs+='visibility : inherit;';
-		hs+='width : 425px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		hs ='position:absolute;';
-		hs += 'box-sizing: border-box;';
-		hs+='cursor: default;';
-		hs+='left: 0px;';
-		hs+='bottom:  0px;';
-		hs+='width: 427px;';
-		hs+='height: auto;';
-		hs+='background: #1a4c81;';
-		hs+='background: rgba(26,76,129,0.784314);';
-		hs+='border: 1px solid #ffffff;';
-		hs+='color: rgba(255,255,255,1);';
-		hs+='text-align: center;';
-		hs+='white-space: pre-wrap;';
-		hs+='padding: 0px 2px 0px 2px;';
-		hs+='overflow: hidden;';
-		els.setAttribute('style',hs);
-		els.innerHTML="<b><p class=\"info_caption\">\u041d\u0435\u0444\u0442\u0435\u0433\u0430\u0437\u043e\u0432\u043e\u0435 \u0434\u0435\u043b\u043e \u0438 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044f \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432<\/p><\/b>";
-		el.appendChild(els);
-		me._text_neft0.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._text_neft0.onclick=function (e) {
-			me._maphub.style[domTransition]='none';
-			me._maphub.style.visibility='hidden';
-			me._maphub.ggVisible=false;
-			me._mapneft.style[domTransition]='none';
-			me._mapneft.style.visibility=(Number(me._mapneft.style.opacity)>0||!me._mapneft.style.opacity)?'inherit':'hidden';
-			me._mapneft.ggVisible=true;
-		}
-		me._text_neft0.onmouseover=function (e) {
-			me._text_neft0.style[domTransition]='none';
-			me._text_neft0.ggParameter.sx=1.03;me._text_neft0.ggParameter.sy=1;
-			me._text_neft0.style[domTransform]=parameterToTransform(me._text_neft0.ggParameter);
-		}
-		me._text_neft0.onmouseout=function (e) {
-			if (e && e.toElement) {
-				var current = e.toElement;
-				while (current = current.parentNode) {
-				if (current == me._text_neft0__text)
-					return;
-				}
-			}
-			me._text_neft0.style[domTransition]='none';
-			me._text_neft0.ggParameter.sx=1;me._text_neft0.ggParameter.sy=1;
-			me._text_neft0.style[domTransform]=parameterToTransform(me._text_neft0.ggParameter);
-		}
-		me._text_neft0.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth + 2;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-			}
-		}
-		me._maphub.appendChild(me._text_neft0);
-		el=me._text_mus0=document.createElement('div');
-		els=me._text_mus0__text=document.createElement('div');
-		el.className='ggskin ggskin_textdiv';
-		el.ggTextDiv=els;
-		el.ggId="text_mus";
-		el.ggDx=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_text ";
-		el.ggType='text';
-		hs ='';
-		hs+='bottom : 243px;';
-		hs+='height : 35px;';
-		hs+='left : -10000px;';
-		hs+='opacity : 0.95;';
-		hs+='position : absolute;';
-		hs+='visibility : inherit;';
-		hs+='width : 425px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		hs ='position:absolute;';
-		hs += 'box-sizing: border-box;';
-		hs+='cursor: default;';
-		hs+='left: 0px;';
-		hs+='bottom:  0px;';
-		hs+='width: 427px;';
-		hs+='height: auto;';
-		hs+='background: #1a4c81;';
-		hs+='background: rgba(26,76,129,0.784314);';
-		hs+='border: 1px solid #ffffff;';
-		hs+='color: rgba(255,255,255,1);';
-		hs+='text-align: center;';
-		hs+='white-space: pre-wrap;';
-		hs+='padding: 0px 2px 0px 2px;';
-		hs+='overflow: hidden;';
-		els.setAttribute('style',hs);
-		els.innerHTML="<b><p class=\"info_caption\">\u041c\u0443\u0437\u044b\u043a\u0430<\/p><\/b>";
-		el.appendChild(els);
-		me._text_mus0.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._text_mus0.onclick=function (e) {
-			me._maphub.style[domTransition]='none';
-			me._maphub.style.visibility='hidden';
-			me._maphub.ggVisible=false;
-			me._mapmus.style[domTransition]='none';
-			me._mapmus.style.visibility=(Number(me._mapmus.style.opacity)>0||!me._mapmus.style.opacity)?'inherit':'hidden';
-			me._mapmus.ggVisible=true;
-		}
-		me._text_mus0.onmouseover=function (e) {
-			me._text_mus0.style[domTransition]='none';
-			me._text_mus0.ggParameter.sx=1.03;me._text_mus0.ggParameter.sy=1;
-			me._text_mus0.style[domTransform]=parameterToTransform(me._text_mus0.ggParameter);
-		}
-		me._text_mus0.onmouseout=function (e) {
-			if (e && e.toElement) {
-				var current = e.toElement;
-				while (current = current.parentNode) {
-				if (current == me._text_mus0__text)
-					return;
-				}
-			}
-			me._text_mus0.style[domTransition]='none';
-			me._text_mus0.ggParameter.sx=1;me._text_mus0.ggParameter.sy=1;
-			me._text_mus0.style[domTransform]=parameterToTransform(me._text_mus0.ggParameter);
-		}
-		me._text_mus0.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth + 2;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-			}
-		}
-		me._maphub.appendChild(me._text_mus0);
-		el=me._text_infor0=document.createElement('div');
-		els=me._text_infor0__text=document.createElement('div');
-		el.className='ggskin ggskin_textdiv';
-		el.ggTextDiv=els;
-		el.ggId="text_infor";
-		el.ggDx=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_text ";
-		el.ggType='text';
-		hs ='';
-		hs+='bottom : 289px;';
-		hs+='height : 35px;';
-		hs+='left : -10000px;';
-		hs+='opacity : 0.95;';
-		hs+='position : absolute;';
-		hs+='visibility : inherit;';
-		hs+='width : 425px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		hs ='position:absolute;';
-		hs += 'box-sizing: border-box;';
-		hs+='cursor: default;';
-		hs+='left: 0px;';
-		hs+='bottom:  0px;';
-		hs+='width: 427px;';
-		hs+='height: auto;';
-		hs+='background: #1a4c81;';
-		hs+='background: rgba(26,76,129,0.784314);';
-		hs+='border: 1px solid #ffffff;';
-		hs+='color: rgba(255,255,255,1);';
-		hs+='text-align: center;';
-		hs+='white-space: pre-wrap;';
-		hs+='padding: 0px 2px 0px 2px;';
-		hs+='overflow: hidden;';
-		els.setAttribute('style',hs);
-		els.innerHTML="<b><p class=\"info_caption\">\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u043a\u0430, \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435, \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430<\/p><\/b>";
-		el.appendChild(els);
-		me._text_infor0.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._text_infor0.onclick=function (e) {
-			me._maphub.style[domTransition]='none';
-			me._maphub.style.visibility='hidden';
-			me._maphub.ggVisible=false;
-			me._mapinf.style[domTransition]='none';
-			me._mapinf.style.visibility=(Number(me._mapinf.style.opacity)>0||!me._mapinf.style.opacity)?'inherit':'hidden';
-			me._mapinf.ggVisible=true;
-		}
-		me._text_infor0.onmouseover=function (e) {
-			me._text_infor0.style[domTransition]='none';
-			me._text_infor0.ggParameter.sx=1.03;me._text_infor0.ggParameter.sy=1;
-			me._text_infor0.style[domTransform]=parameterToTransform(me._text_infor0.ggParameter);
-		}
-		me._text_infor0.onmouseout=function (e) {
-			if (e && e.toElement) {
-				var current = e.toElement;
-				while (current = current.parentNode) {
-				if (current == me._text_infor0__text)
-					return;
-				}
-			}
-			me._text_infor0.style[domTransition]='none';
-			me._text_infor0.ggParameter.sx=1;me._text_infor0.ggParameter.sy=1;
-			me._text_infor0.style[domTransform]=parameterToTransform(me._text_infor0.ggParameter);
-		}
-		me._text_infor0.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth + 2;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-			}
-		}
-		me._maphub.appendChild(me._text_infor0);
-		el=me._text_zeml0=document.createElement('div');
-		els=me._text_zeml0__text=document.createElement('div');
-		el.className='ggskin ggskin_textdiv';
-		el.ggTextDiv=els;
-		el.ggId="text_zeml";
-		el.ggDx=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_text ";
-		el.ggType='text';
-		hs ='';
-		hs+='bottom : 335px;';
-		hs+='height : 35px;';
-		hs+='left : -10000px;';
-		hs+='opacity : 0.95;';
-		hs+='position : absolute;';
-		hs+='visibility : inherit;';
-		hs+='width : 425px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		hs ='position:absolute;';
-		hs += 'box-sizing: border-box;';
-		hs+='cursor: default;';
-		hs+='left: 0px;';
-		hs+='bottom:  0px;';
-		hs+='width: 427px;';
-		hs+='height: auto;';
-		hs+='background: #1a4c81;';
-		hs+='background: rgba(26,76,129,0.784314);';
-		hs+='border: 1px solid #ffffff;';
-		hs+='color: rgba(255,255,255,1);';
-		hs+='text-align: center;';
-		hs+='white-space: pre-wrap;';
-		hs+='padding: 0px 2px 0px 2px;';
-		hs+='overflow: hidden;';
-		els.setAttribute('style',hs);
-		els.innerHTML="<b><p class=\"info_caption\">\u0417\u0435\u043c\u043b\u0435\u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e, \u043a\u0430\u0440\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044f<\/p><\/b>";
-		el.appendChild(els);
-		me._text_zeml0.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._text_zeml0.onclick=function (e) {
-			me._maphub.style[domTransition]='none';
-			me._maphub.style.visibility='hidden';
-			me._maphub.ggVisible=false;
-			me._mapzeml.style[domTransition]='none';
-			me._mapzeml.style.visibility=(Number(me._mapzeml.style.opacity)>0||!me._mapzeml.style.opacity)?'inherit':'hidden';
-			me._mapzeml.ggVisible=true;
-		}
-		me._text_zeml0.onmouseover=function (e) {
-			me._text_zeml0.style[domTransition]='none';
-			me._text_zeml0.ggParameter.sx=1.03;me._text_zeml0.ggParameter.sy=1;
-			me._text_zeml0.style[domTransform]=parameterToTransform(me._text_zeml0.ggParameter);
-		}
-		me._text_zeml0.onmouseout=function (e) {
-			if (e && e.toElement) {
-				var current = e.toElement;
-				while (current = current.parentNode) {
-				if (current == me._text_zeml0__text)
-					return;
-				}
-			}
-			me._text_zeml0.style[domTransition]='none';
-			me._text_zeml0.ggParameter.sx=1;me._text_zeml0.ggParameter.sy=1;
-			me._text_zeml0.style[domTransform]=parameterToTransform(me._text_zeml0.ggParameter);
-		}
-		me._text_zeml0.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth + 2;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-			}
-		}
-		me._maphub.appendChild(me._text_zeml0);
-		el=me._text_forall0=document.createElement('div');
-		els=me._text_forall0__text=document.createElement('div');
-		el.className='ggskin ggskin_textdiv';
-		el.ggTextDiv=els;
-		el.ggId="text_forall";
-		el.ggDx=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_text ";
-		el.ggType='text';
-		hs ='';
-		hs+='bottom : 381px;';
-		hs+='height : 35px;';
-		hs+='left : -10000px;';
-		hs+='opacity : 0.95;';
-		hs+='position : absolute;';
-		hs+='visibility : inherit;';
-		hs+='width : 425px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		hs ='position:absolute;';
-		hs += 'box-sizing: border-box;';
-		hs+='cursor: default;';
-		hs+='left: 0px;';
-		hs+='bottom:  0px;';
-		hs+='width: 427px;';
-		hs+='height: auto;';
-		hs+='background: #1a4c81;';
-		hs+='background: rgba(26,76,129,0.784314);';
-		hs+='border: 1px solid #ffffff;';
-		hs+='color: rgba(255,255,255,1);';
-		hs+='text-align: center;';
-		hs+='white-space: pre-wrap;';
-		hs+='padding: 0px 2px 0px 2px;';
-		hs+='overflow: hidden;';
-		els.setAttribute('style',hs);
-		els.innerHTML="<b><p class=\"info_caption\">\u0414\u043b\u044f \u0432\u0441\u0435\u0445 \u0441\u0442\u0443\u0434\u0435\u043d\u0442\u043e\u0432<\/p><\/b>";
-		el.appendChild(els);
-		me._text_forall0.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._text_forall0.onclick=function (e) {
-			me._maphub.style[domTransition]='none';
-			me._maphub.style.visibility='hidden';
-			me._maphub.ggVisible=false;
-			me._mapforall.style[domTransition]='none';
-			me._mapforall.style.visibility=(Number(me._mapforall.style.opacity)>0||!me._mapforall.style.opacity)?'inherit':'hidden';
-			me._mapforall.ggVisible=true;
-		}
-		me._text_forall0.onmouseover=function (e) {
-			me._text_forall0.style[domTransition]='none';
-			me._text_forall0.ggParameter.sx=1.03;me._text_forall0.ggParameter.sy=1;
-			me._text_forall0.style[domTransform]=parameterToTransform(me._text_forall0.ggParameter);
-		}
-		me._text_forall0.onmouseout=function (e) {
-			if (e && e.toElement) {
-				var current = e.toElement;
-				while (current = current.parentNode) {
-				if (current == me._text_forall0__text)
-					return;
-				}
-			}
-			me._text_forall0.style[domTransition]='none';
-			me._text_forall0.ggParameter.sx=1;me._text_forall0.ggParameter.sy=1;
-			me._text_forall0.style[domTransform]=parameterToTransform(me._text_forall0.ggParameter);
-		}
-		me._text_forall0.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth + 2;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-			}
-		}
-		me._maphub.appendChild(me._text_forall0);
-		me._map.appendChild(me._maphub);
-		el=me._mapall=document.createElement('div');
-		els=me._mapall__img=document.createElement('img');
-		els.className='ggskin ggskin_mapall';
-		hs='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcUAAAHPCAYAAAAiWsHiAAAG5ElEQVR4nO3ZPWpbQRSA0XGQ9NAW3LpMZ0gZcB+TNWQrXk+69AFDekOKlF6H0A84zeeH5QVIITqnu0xzu4+Zubq+f3gZAMD4cO4FAOBfsXg7bLb7sd0dzrULAJzUtFqM9bSc5zmKm+1+fP38cdzd3ggjAP+9abUYj0/P48evP3MY5yhud4dxd3szvn35dLYFAeDUvv/8PUfRnyIA5CiKnk0BuCTvu+emCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUAS'+
-			'CiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEA'+
-			'IooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUAS'+
-			'CiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEA'+
-			'IooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUAS'+
-			'CiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQDIURSn1eJcewDAyb3vnpsiAGRO5LRajMen5zHGGNvd4WwLAcApvHbv7W3x6vr+4eV12Gz3ggjAxZhWi7GelvN89Ji6npZHhwBwSfwpAkD+AlhhNEcNI0GyAAAAAElFTkSuQmCC';
-		els.setAttribute('src',hs);
-		els.ggNormalSrc=hs;
-		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
-		els.className='ggskin ggskin_image';
-		els['ondragstart']=function() { return false; };
-		player.checkLoaded.push(els);
-		el.appendChild(els);
-		el.ggSubElement = els;
-		el.ggId="map(all)";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=false;
-		el.className="ggskin ggskin_image ";
-		el.ggType='image';
-		hs ='';
-		hs+='height : 463px;';
-		hs+='left : 0px;';
-		hs+='position : absolute;';
-		hs+='top : 2px;';
-		hs+='visibility : hidden;';
-		hs+='width : 453px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		me._mapall.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._mapall.ggUpdatePosition=function (useTransition) {
-		}
 		el=me._text_enj=document.createElement('div');
 		els=me._text_enj__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
@@ -9308,7 +8451,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='bottom : 3px;';
+		hs+='bottom : 13px;';
 		hs+='height : 35px;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0.95;';
@@ -9386,7 +8529,7 @@ function pano2vrSkin(player,base) {
 					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
 			}
 		}
-		me._mapall.appendChild(me._text_enj);
+		me._maphub.appendChild(me._text_enj);
 		el=me._text_eco=document.createElement('div');
 		els=me._text_eco__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
@@ -9398,7 +8541,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='bottom : 53px;';
+		hs+='bottom : 63px;';
 		hs+='height : 35px;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0.95;';
@@ -9476,7 +8619,7 @@ function pano2vrSkin(player,base) {
 					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
 			}
 		}
-		me._mapall.appendChild(me._text_eco);
+		me._maphub.appendChild(me._text_eco);
 		el=me._text_tech=document.createElement('div');
 		els=me._text_tech__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
@@ -9488,7 +8631,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='bottom : 103px;';
+		hs+='bottom : 113px;';
 		hs+='height : 35px;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0.95;';
@@ -9566,7 +8709,7 @@ function pano2vrSkin(player,base) {
 					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
 			}
 		}
-		me._mapall.appendChild(me._text_tech);
+		me._maphub.appendChild(me._text_tech);
 		el=me._text_eng=document.createElement('div');
 		els=me._text_eng__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
@@ -9578,7 +8721,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='bottom : 153px;';
+		hs+='bottom : 163px;';
 		hs+='height : 35px;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0.95;';
@@ -9656,7 +8799,7 @@ function pano2vrSkin(player,base) {
 					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
 			}
 		}
-		me._mapall.appendChild(me._text_eng);
+		me._maphub.appendChild(me._text_eng);
 		el=me._text_neft=document.createElement('div');
 		els=me._text_neft__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
@@ -9668,7 +8811,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='bottom : 203px;';
+		hs+='bottom : 213px;';
 		hs+='height : 35px;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0.95;';
@@ -9746,7 +8889,7 @@ function pano2vrSkin(player,base) {
 					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
 			}
 		}
-		me._mapall.appendChild(me._text_neft);
+		me._maphub.appendChild(me._text_neft);
 		el=me._text_mus=document.createElement('div');
 		els=me._text_mus__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
@@ -9758,7 +8901,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='bottom : 253px;';
+		hs+='bottom : 263px;';
 		hs+='height : 35px;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0.95;';
@@ -9836,7 +8979,7 @@ function pano2vrSkin(player,base) {
 					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
 			}
 		}
-		me._mapall.appendChild(me._text_mus);
+		me._maphub.appendChild(me._text_mus);
 		el=me._text_infor=document.createElement('div');
 		els=me._text_infor__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
@@ -9848,7 +8991,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='bottom : 303px;';
+		hs+='bottom : 313px;';
 		hs+='height : 35px;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0.95;';
@@ -9926,7 +9069,7 @@ function pano2vrSkin(player,base) {
 					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
 			}
 		}
-		me._mapall.appendChild(me._text_infor);
+		me._maphub.appendChild(me._text_infor);
 		el=me._text_zeml=document.createElement('div');
 		els=me._text_zeml__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
@@ -9938,7 +9081,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='bottom : 353px;';
+		hs+='bottom : 363px;';
 		hs+='height : 35px;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0.95;';
@@ -10016,7 +9159,7 @@ function pano2vrSkin(player,base) {
 					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
 			}
 		}
-		me._mapall.appendChild(me._text_zeml);
+		me._maphub.appendChild(me._text_zeml);
 		el=me._text_forall=document.createElement('div');
 		els=me._text_forall__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
@@ -10028,7 +9171,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='bottom : 403px;';
+		hs+='bottom : 413px;';
 		hs+='height : 35px;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0.95;';
@@ -10106,7 +9249,54 @@ function pano2vrSkin(player,base) {
 					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
 			}
 		}
-		me._mapall.appendChild(me._text_forall);
+		me._maphub.appendChild(me._text_forall);
+		me._map.appendChild(me._maphub);
+		el=me._mapall=document.createElement('div');
+		els=me._mapall__img=document.createElement('img');
+		els.className='ggskin ggskin_mapall';
+		hs='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcUAAAHPCAYAAAAiWsHiAAAG5ElEQVR4nO3ZPWpbQRSA0XGQ9NAW3LpMZ0gZcB+TNWQrXk+69AFDekOKlF6H0A84zeeH5QVIITqnu0xzu4+Zubq+f3gZAMD4cO4FAOBfsXg7bLb7sd0dzrULAJzUtFqM9bSc5zmKm+1+fP38cdzd3ggjAP+9abUYj0/P48evP3MY5yhud4dxd3szvn35dLYFAeDUvv/8PUfRnyIA5CiKnk0BuCTvu+emCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUAS'+
+			'CiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEA'+
+			'IooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUAS'+
+			'CiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEA'+
+			'IooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUAS'+
+			'CiCAARRQCIKAJARBEAIooAEFEEgIgiAEQUASCiCAARRQDIURSn1eJcewDAyb3vnpsiAGRO5LRajMen5zHGGNvd4WwLAcApvHbv7W3x6vr+4eV12Gz3ggjAxZhWi7GelvN89Ji6npZHhwBwSfwpAkD+AlhhNEcNI0GyAAAAAElFTkSuQmCC';
+		els.setAttribute('src',hs);
+		els.ggNormalSrc=hs;
+		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
+		els.className='ggskin ggskin_image';
+		els['ondragstart']=function() { return false; };
+		player.checkLoaded.push(els);
+		el.appendChild(els);
+		el.ggSubElement = els;
+		el.ggId="map(all)";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=false;
+		el.className="ggskin ggskin_image ";
+		el.ggType='image';
+		hs ='';
+		hs+='height : 463px;';
+		hs+='left : 0px;';
+		hs+='position : absolute;';
+		hs+='top : 2px;';
+		hs+='visibility : hidden;';
+		hs+='width : 453px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._mapall.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._mapall.ggUpdatePosition=function (useTransition) {
+		}
 		me._map.appendChild(me._mapall);
 		el=me._whitesq=document.createElement('div');
 		els=me._whitesq__img=document.createElement('img');
@@ -10127,7 +9317,7 @@ function pano2vrSkin(player,base) {
 		el.ggType='image';
 		hs ='';
 		hs+='height : 28px;';
-		hs+='left : 463.002px;';
+		hs+='left : 463px;';
 		hs+='opacity : 0.9;';
 		hs+='position : absolute;';
 		hs+='top : 2px;';
@@ -31754,80 +30944,6 @@ function pano2vrSkin(player,base) {
 		}
 		hotspotTemplates = [];
 	}
-	function SkinElement_inactive_Class(parentScope,ggParent) {
-		var me=this;
-		var flag=false;
-		me.parentScope=parentScope;
-		me.ggParent=ggParent;
-		var nodeId=ggParent.ggElementNodeId();
-		me.ggNodeId=nodeId;
-		me.ggUserdata=skin.player.getNodeUserdata(nodeId);
-		me.elementMouseDown=[];
-		me.elementMouseOver=[];
-		
-		me.findElements=function(id,regex) {
-			return skin.findElements(id,regex);
-		}
-		
-		el=me._inactive=document.createElement('div');
-		els=me._inactive__img=document.createElement('img');
-		els.className='ggskin ggskin_inactive';
-		hs='data:image/png;base64,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';
-		els.setAttribute('src',hs);
-		els.ggNormalSrc=hs;
-		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
-		els.className='ggskin ggskin_image';
-		els['ondragstart']=function() { return false; };
-		player.checkLoaded.push(els);
-		el.appendChild(els);
-		el.ggSubElement = els;
-		el.ggId="inactive";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_image ";
-		el.ggType='image';
-		hs ='';
-		hs+='height : 20px;';
-		hs+='position : absolute;';
-		hs+='right : 7.53%;';
-		hs+='top : 20.05%;';
-		hs+='visibility : inherit;';
-		hs+='width : 20px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		me._inactive.ggIsActive=function() {
-			return player.getCurrentNode()==this.ggElementNodeId();
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return me.ggNodeId;
-		}
-		me._inactive.ggUpdatePosition=function (useTransition) {
-		}
-	};
 	function SkinElement_active_Class(parentScope,ggParent) {
 		var me=this;
 		var flag=false;
@@ -31900,6 +31016,80 @@ function pano2vrSkin(player,base) {
 			return me.ggNodeId;
 		}
 		me._active.ggUpdatePosition=function (useTransition) {
+		}
+	};
+	function SkinElement_inactive_Class(parentScope,ggParent) {
+		var me=this;
+		var flag=false;
+		me.parentScope=parentScope;
+		me.ggParent=ggParent;
+		var nodeId=ggParent.ggElementNodeId();
+		me.ggNodeId=nodeId;
+		me.ggUserdata=skin.player.getNodeUserdata(nodeId);
+		me.elementMouseDown=[];
+		me.elementMouseOver=[];
+		
+		me.findElements=function(id,regex) {
+			return skin.findElements(id,regex);
+		}
+		
+		el=me._inactive=document.createElement('div');
+		els=me._inactive__img=document.createElement('img');
+		els.className='ggskin ggskin_inactive';
+		hs='data:image/png;base64,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';
+		els.setAttribute('src',hs);
+		els.ggNormalSrc=hs;
+		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
+		els.className='ggskin ggskin_image';
+		els['ondragstart']=function() { return false; };
+		player.checkLoaded.push(els);
+		el.appendChild(els);
+		el.ggSubElement = els;
+		el.ggId="inactive";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_image ";
+		el.ggType='image';
+		hs ='';
+		hs+='height : 20px;';
+		hs+='position : absolute;';
+		hs+='right : 7.53%;';
+		hs+='top : 20.05%;';
+		hs+='visibility : inherit;';
+		hs+='width : 20px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._inactive.ggIsActive=function() {
+			return player.getCurrentNode()==this.ggElementNodeId();
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return me.ggNodeId;
+		}
+		me._inactive.ggUpdatePosition=function (useTransition) {
 		}
 	};
 	me.addSkin();
